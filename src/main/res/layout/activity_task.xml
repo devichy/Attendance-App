@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Task">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Devi Chowdhury"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+
+    <ImageView
+        android:id="@+id/passwordIcon"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:src="@drawable/pic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Button"
+        android:textAllCaps="false"
+        android:background="@drawable/round_back_primary_15"
+        android:textColor="#FFFFFF"
+        />
+</LinearLayout>
